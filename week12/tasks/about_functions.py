@@ -35,7 +35,7 @@ assert_equal(__, function_with_default_params(1, b=3))
 
 x = 1
 def func():
-    x = 2
+    x = 2  # NOQA
 
 func()
 assert_equal(__, x)
@@ -47,3 +47,11 @@ def func2():
 
 func2()
 assert_equal(__, x)
+
+
+a = 1
+b = 2
+def func3(a, b):
+    return a + b
+
+assert_equal(__, func3(2, 2))
