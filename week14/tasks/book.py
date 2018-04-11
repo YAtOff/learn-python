@@ -53,9 +53,17 @@ def list_books():
     pass
 
 
+def find_book_by_title(title):
+    """
+    title - стойността на title
+    Връща първата книга с заглавие `title` или None ако няма такава
+    """
+    pass
+
+
 def find_book(by_what, value):
     """
-    by_whta - може да бъде title, author, genre
+    by_what - може да бъде title, author, genre
     value - стойността на title, author или genre
     Връща списък от намерени книги
     """
