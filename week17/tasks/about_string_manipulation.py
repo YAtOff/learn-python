@@ -46,13 +46,9 @@ string = "Sausage Egg Cheese"
 words = string.split()
 assert_equal([__, __, __], words)
 
-# strings can be split with different patterns
-import re #import python regular expression library
-
-string = "the,rain;in,spain"
-pattern = re.compile(',|;')
-
-words = pattern.split(string)
+# strings can be split by char
+string = "the,rain,in,spain"
+words = string.split(',')
 
 assert_equal([__, __, __, __], words)
 

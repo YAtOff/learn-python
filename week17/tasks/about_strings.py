@@ -92,3 +92,14 @@ string = "\n"
 assert_equal('\n', string)
 assert_equal("""\n""", string)
 assert_equal(__, len(string))
+
+# a character in string can be accesses like in list
+
+string = "Hello"
+assert_equal(__, string[1])
+
+# you can check weather a character is in string
+
+string = "Hello"
+assert_equal(__, 'H' in string)
+assert_equal(__, 'Z' in string)
