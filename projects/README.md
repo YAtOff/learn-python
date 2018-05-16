@@ -12,7 +12,7 @@
 * Използвайте:
     - https://openweathermap.org/api за данни
     - http://docs.python-requests.org/en/master/ за прочитането им
-    - и `Тк` за визуализация
+    - и `Тк` за визуализация https://likegeeks.com/python-gui-examples-tkinter-tutorial/ http://www.tkdocs.com/tutorial/index.html
 
 ### Slack bot
 Тук може да разберете как се прави: https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
@@ -38,5 +38,6 @@ http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html
 * http://inventwithpython.com/pygame/
 * http://programarcadegames.com/
 * http://arcade-book.readthedocs.io/en/latest/index.html
+* http://kidscancode.org/lessons/
 
 ### Измисляне на загадки, като тези които аз ви дадох, но никой не можа да реши
